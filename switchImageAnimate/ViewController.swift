@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
         let images = ["test1.jpg", "test2.jpg", "test3.jpg"]
-        let animationInfo = ImageViewAnimationObj(images:images, animateDuration: 4,frequentImageSwitch: 8, transitionType: .Push, repeats: true)
+        let animationInfo = ImageViewAnimationObj(images:images, animateDuration: 4,frequentImageSwitch: 5, transitionType: .Fade, repeats: true)
         imgView.animateImages(animationInfo)
     
     }
