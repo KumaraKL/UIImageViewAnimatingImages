@@ -1,6 +1,10 @@
 Animate set of Images within the UIImageView
 
-Use this code:
+Add the "ImageViewAnimate.swift" into your proect.
+
+Usage:
+
+
 let images = ["test1.jpg", "test2.jpg", "test3.jpg"]
         let animationInfo = ImageViewAnimationObj(images:images, animateDuration: 4,frequentImageSwitch: 8, transitionType: .Push, repeats: true)
         imgView.animateImages(animationInfo)
